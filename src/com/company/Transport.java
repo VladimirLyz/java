@@ -25,6 +25,10 @@ public class Transport
         this.brand=arg.brand;
     }
 
+    public String toString()
+    {
+        return brand+" Speed: " + velocity+ " Number of weels: "+weels;
+    }
     public void accelerate(int acceleration)
     {
         this.velocity += acceleration;

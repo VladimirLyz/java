@@ -19,6 +19,8 @@ public class Main
         System.out.println(t1.getVelocity()+ " " + t1.getWeels()+ " " +t1.getBrand());
         System.out.println(t2.getVelocity()+ " " + t2.getWeels()+ " " +t2.getBrand());
         System.out.println(c1.getVelocity()+ " " + c1.getWeels() + " "+ c1.getBrand());
-        System.out.println(t2.getVelocity()+ " " + t2.getWeels());
+        System.out.println(c2.getVelocity()+ " " + c2.getWeels() + " " + c2.getBrand());
+        System.out.println(c2.toString());
+
     }
 }
